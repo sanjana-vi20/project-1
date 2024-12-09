@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      *{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+.mainbody{
+    height: 100%;
+    width: 100%;
+}
+.structure{
+  height: 100%;
+  width: 100%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(156, 88, 0);
+    font-size: 8px;
+    padding: 1rem;
+}
+.anchor{
+  text-decoration: none;
+  color: black;
+}
+
+.image{
+    background-color: #cccccc;
+  background-image: url(https://img.freepik.com/premium-photo/golden-embrace-chain-necklace-womans-neck_917664-91850.jpg);
+  height: 500px;
+  background-position: right , bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  }
+  .box{ 
+    background-color:rgb(156, 88, 0);
+    width: 20rem;
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-timing-function: ease;
+}
+@keyframes left {
+    from{
+        left: -600px;
+        right: 0px;
+        opacity: 0;
+    }
+    to{
+        left: 0px;
+        right: 0;
+        opacity: 1;
+    }
+}
+.CollectionSection{
+  padding: 1rem;
+  background-color:rgb(156, 88, 0);
+  
+}
+.imagename{
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+.collections{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width:430px){
+  .dis{
+    width: 100%;
+  }
+  .anchor{
+    font-size: 10px;
+  }
+  .image{
+    background-image: url(https://masonmadison.com/cdn/shop/files/Best_Gold_Chunky_Chain_Necklace_Gift_Trends_for_Women_1_Women_s_BEST_Trending_Trendy_Gold_Chunky_Chain_Necklace_Jewelry_Gift_on_Sale_for_Women_Lady_Mother_Wife_1_BEST_Gold_Chain_Necklace_Jewelry_Gift_for_Women_1_Best_Most_Top_Trend12_2000x.png?v=1722738724);
+  }
+  .box{
+    width: 75%;
+    padding-left:5px ;
+    font-size: 10px;
+  }
+  .imagename{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .collections{
+    flex-direction: column;
+    gap: 1rem;
+  }  
+  .names{
+    flex-direction: column;
+  }
+  .jwellery{
+    visibility: hidden;
+  }
+  .information{
+    flex-wrap: wrap-reverse;
+  }
+  .bracelete{
+   display: none;
+  }
+  .dis h1{
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 770px ){
+  .CollectionSection{
+    .img{
+      height: 150px;
+      width: 150px;
+    }
+  }
+ .bracelete{
+  display: none;
+ }
+ .declare{
+  .jwellerystudio{
+    font-size-adjust: 2rem;
+  }
+ }
+}
+.img{
+  height: 200px;
+  width: 200px;
+}
+.names{
+  display: flex;
+  justify-content: space-around;
+} 
+p{
+  font-weight: 2rem;
+  margin: 1rem;
+  height: 20px;
+  width: 100px;
+  background-color: aliceblue;
+  color: rgb(216, 131, 19);
+}
+.discounts{
+  background-color: #ded4c3;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  margin-top: 1rem;
+  background-color: rgb(156, 88, 0);
+  padding: 10px;
+  font-weight: 3rem;
+  font-style: italic;
+}
+.dis{
+  width: 50%;
+  color:rgb(216, 131, 19); 
+}
+.information{
+  display: flex;
+  justify-content: space-between;
+}
+.bracelete{
+  background-image: url(https://sc04.alicdn.com/kf/H212dfbe1cfa34d2aa346c304ad1ea4a0q.jpg);
+  background-size: 50rem 35rem;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: 50%;
+}
+.info{
+  background-color: rgb(156, 88, 0); 
+  height: 100%;
+}
+.declare{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  font-style: italic;
+}
+.jwellerystudio{
+  margin: 10px;
+  font-size: 4.5rem;
+}
+.contact{
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin-left: 3rem;
+  height: 10%;
+  width: 10%;
+}
+    </style>
+</head>
+<body class="mainbody">
+<div class="structure">
+    <div class="home">
+        <div class="head">
+           <h1><a href="#" class="anchor">NEW ARRIVALS</a></h1>
+           <h1><a href="#" class="anchor"> ABOUT US</a></h1>
+           <h1><a href="#" class="anchor">SHOP</a></h1>
+           <h1><a href="#" class="anchor">SALE</a></h1>
+        </div>
+         <div class="image">
+            <div class="box">
+               <h2 style="padding: 1rem;">SHOP NOW OUR</h2>
+               <h1 style="font-size: 3.1rem; font-style: italic; padding: 1rem;">New Collection</h1>
+               <h3 style="padding: 1rem;">Available now!</h3>
+             </div>
+         </div>
+    </div>
+    <div class="CollectionSection">
+       <div class="heading"><h1>Our Collection</h1></div>
+        <div class="imagename">
+            <div class="collections">
+               <img src="https://m.media-amazon.com/images/I/61BoYVUw33L.jpg" alt="" class="img">
+               <img src=" https://i.etsystatic.com/10971538/r/il/436ac0/1829902511/il_570xN.1829902511_8al6.jpg" alt="" class="img">
+               <img src="https://assets.ajio.com/medias/sys_master/root/20221205/A02T/638d9356aeb269659ccf283c/-1117Wx1400H-469380061-yellow-MODEL5.jpg" alt="" class="img">
+               <img src="https://cdn.shopify.com/s/files/1/0293/9277/products/08-26-22Studio8_ME_MR_15-25-18_19_E192440DS_Gold_31301_WG.jpg?v=1714426782&width=267&height=401&crop=center" alt="" class="img">
+            </div>
+            <div class="names">
+               <p>NECKLACE</p>
+               <p>BEACELATES</p>  
+               <p>RINGS</p>  
+               <p>EARINGS</p>  
+            </div>
+         </div>
+    </div>
+  <div class="discounts">
+      <div class="dis">
+           <h2 style="margin-bottom: 5px;">ENJOY OUR</h2>
+           <h1 style="font-size: 5rem; font-style: italic; margin: 0px;">Discounts!</h1>
+           <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ratione dicta vero fugit haru Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ad!</h3>
+           <input type="button" value="Welcome15" class="button">
+       </div>
+       <div class="jwellery">
+            <img src="https://ae01.alicdn.com/kf/Sffe34da6891547048e144f9247de9bb5O.jpg_960x960.jpg" alt="" style="height: 18rem; width: 16rem; border-radius: 50% 50% 0px 0px;"> 
+       </div>
+  </div>
+       <div class="information">
+         <div class="bracelete">
+         </div>
+         <div class="info">
+            <div class="declare">
+               <h2 class="jwellerystudio">Brocelle jwellery Studio</h2>
+               <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, voluptatum?</h3>
+            </div>
+               <a href="#"><img src="https://img.icons8.com/?size=100&id=60688&format=png&color=000000" alt="" class="contact" ></a>
+               <a href="#"><img src="https://img.icons8.com/?size=100&id=78382&format=png&color=000000" alt=""  class="contact" ></a> 
+               <a href="#"><img src="https://img.icons8.com/?size=100&id=85149&format=png&color=000000" alt=""  class="contact" ></a>
+               <a href="#"><img src="https://img.icons8.com/?size=100&id=86527&format=png&color=000000" alt=""  class="contact"></a>
+         </div>
+       </div>
+</div>
+</body>
+</html>

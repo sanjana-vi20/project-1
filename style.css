@@ -3,7 +3,6 @@
    margin: 0px;
    box-sizing: border-box;
 }
-
 .mainbody{
     height: 100%;
     width: 100%;
@@ -105,7 +104,7 @@
     flex-direction: column;
   }
   .jwellery{
-    visibility: hidden;
+    display:none
   }
   .information{
     flex-wrap: wrap-reverse;
@@ -126,11 +125,6 @@
   }
  .bracelete{
   display: none;
- }
- .declare{
-  .jwellerystudio{
-    font-size-adjust: 2rem;
-  }
  }
 }
 .img{
@@ -190,7 +184,7 @@ p{
 }
 .jwellerystudio{
   margin: 10px;
-  font-size: 4.5rem;
+  font-size: 7vw;
 }
 .contact{
   background-color: aliceblue;
